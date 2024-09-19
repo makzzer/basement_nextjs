@@ -1,6 +1,7 @@
 import React from "react";
 import type { Metadata } from "next";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import './globals.css'; // Importa el archivo de Tailwind
 
 
@@ -21,6 +22,8 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <main className="flex-grow container mx-auto p-4">
         {children}
       </main>
+
+      <Footer/>
       </body>
     </html>
   )

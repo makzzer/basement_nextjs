@@ -12,13 +12,13 @@ const Navbar = () => {
                 {/*Links*/}
                 <ul className="flex space-x-4">
                     <li>
-                        <a href="#" className="hover:text-gray-400">Inicio</a>
+                        <a href="/" className="hover:text-gray-400">Inicio</a>
                     </li>
                     <li>
-                        <a href="#" className="hover:text-gray-400">Dashboard</a>
+                        <a href="/dashboard" className="hover:text-gray-400">Dashboard</a>
                     </li>
                     <li>
-                        <a href="#" className="hover:text-gray-400">Vehiculos</a>
+                        <a href="/vehiculos" className="hover:text-gray-400">Vehiculos</a>
                     </li>
                 </ul>
             </div>
